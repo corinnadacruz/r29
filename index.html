@@ -1,0 +1,992 @@
+
+<!doctype html>
+<!--[if IEMobile 7 ]><html class="no-js iem7" manifest="default.appcache?v=1"><![endif]-->
+<!--[if lt IE 7 ]><html class="no-js ie6" lang="en"><![endif]-->
+<!--[if IE 7 ]><html class="no-js ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="no-js ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html  class="no-js" lang="en"><!--<![endif]-->
+<head>
+    
+
+  <script type="text/javascript">var _dc_ts = _sf_startpt = (new Date()).getTime();</script>
+
+    
+
+  <title itemprop="name">	Refinery29</title>
+
+      <meta name="robots" content="noindex, nofollow" />
+  
+
+  <!-- Meta -->
+    <meta name="viewport" content="width=1300">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UgYFV15ACwAHUFhbDw=="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:23,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(4),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:10,2:9,3:7,4:11,5:3,6:24,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],6:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3),n.on("fn-start",function(t){var e=t[0];e instanceof Event&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof Event&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:10,2:9,3:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],7:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=t("ee").create(),i=t(1)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=t[1]=a(e,"nr@wrapped",function(){return i(e,"fn-",null,e.name||"anonymous")}):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:25,ee:"QJf3ax",gos:"7eSDFh"}],8:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState"],"-")},{1:25,ee:"QJf3ax"}],9:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:25,ee:"QJf3ax"}],10:[function(t,e){function n(t,e,n){t[0]=o(t[0],"fn-",null,n)}var r=t("ee").create(),o=t(1)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:25,ee:"QJf3ax"}],11:[function(t,e){function n(){f.inPlace(this,p,"fn-")}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:7,2:25,ee:"QJf3ax"}],12:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=n(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1);t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=n(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var u=0;c>u;u++)e.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:13,3:11,4:7,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],13:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],14:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:23,2:24,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-686.min.js"},p=e.exports={offset:i(),origin:u,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:23,2:14,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],23:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],24:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],25:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@wrapper",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:24,ee:"QJf3ax"}]},{},["G9z0Bl",4,12,6,5]);</script>
+<meta itemscope itemType="http://schema.org/WebPage" />
+  <link rel="canonical" href="http://www.refinery29.com" />
+  <meta type="og:url"   content="http://www.refinery29.com"/>
+
+
+
+<meta name="description" content="Refinery29 is a modern woman's destination for how to live a stylish, well-rounded life. Read on for breaking entertainment news, fashion tips, health, and more." itemprop="description" />
+
+
+
+
+<!-- Social Meta -->
+<meta property="og:title" content="" itemprop="name" />
+<meta property="og:description" content="Emerging fashion trends covered by experts. Make Refinery29.com your source for current fashion trends" />
+<meta property="og:image" content="https://s2.r29static.com/blog/47c4fc/assets/images/logos/R29_OGlogo_200x200.jpg" itemprop="image" />
+<meta property="og:type"  content="website"/>
+<meta name="twitter:card" content="summary">
+
+
+  <meta property="fb:app_id" content="155023867867753"/>
+  <meta property="article:publisher" content="https://www.facebook.com/refinery29" />
+  <meta name="twitter:site"  content="@refinery29"/>
+  <link href="https://plus.google.com/101601649207969071719" rel="publisher" />
+
+  <meta name="application-name" content="Refinery29"/>
+  <meta name="msapplication-TileColor" content="#ffffff"/>
+  <meta name="msapplication-TileImage" content="https://s2.r29static.com/blog/47c4fc/images/misc/r29_circle_144.png"/>
+
+  <script type="application/ld+json">
+  {
+    "@context":"http://schema.org",
+    "@type":"Organization",
+    "name":"Refinery29",
+    "url":"http://www.refinery29.com",
+    "sameAs":[
+      "http://www.facebook.com/refinery29",
+      "http://twitter.com/refinery29",
+      "http://www.pinterest.com/refinery29/",
+      "http://instagram.com/refinery29",
+      "http://www.youtube.com/user/Refinery29TV"
+    ]
+  }
+</script>
+
+
+    <!--CSS-->
+  <link rel="stylesheet" href="https://s3.r29static.com/blog/47c4fc/assets/css/refinery29.css"  />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <!--Rich Pins on pinterest-->
+  <link rel="rich-pin-icon" href="https://s1.r29static.com/blog/47c4fc/assets/images/retina_favicon_144.ico">
+  <!--head JS-->
+
+  <script src="https://s2.r29static.com/blog/47c4fc/assets/js/lib/modernizr.js"></script>
+
+  
+
+  <!--[if lte IE 8]>
+  <script src="https://s3.r29static.com/blog/47c4fc/assets/js/lib/respond.js"></script>
+  <script type="text/javascript">
+    var ie8browser = true;
+  </script>
+  <![endif]-->
+
+  <!--[if lte IE 7]>
+  <script src="https://s3.r29static.com/blog/47c4fc/assets/js/lib/lte-ie7.js"></script>
+  <![endif]-->
+
+  <script type="text/javascript">
+  // a few settings that tell us what we're working with
+  if( typeof environment === 'undefined' )
+  {
+    var environment = { };
+  }
+  environment.entry_id = "";
+  environment.collection_id = "";
+  environment.gaTracker = 'UA-315022-1';
+  environment.categoryPath = 'homepage';
+  environment.topCategoryId = 1000 ;
+  environment.enableOptimizely = true;
+
+  environment.facebookAppID = '155023867867753';
+
+  environment.is_preview = false;
+  
+
+  environment.page_type = 'index';
+
+  environment.ad_vars = {
+    category_path:        'homepage',
+    series:               '',
+    collections:          [],
+    adminid:              '',
+    pageid:               '',
+    sponsor:              '',
+    disable_dcopt:        'ist',
+    pagetype:             'index',
+    tags:                 '',
+    test:                 '',
+    site_name:            'r29.com',
+    is_sensitive_content: 'false'
+  }
+
+  
+
+      environment.relatedStoriesEnable = true;
+    environment.relatedStoriesWeight = 50;
+  
+
+</script>
+
+
+  <script type="text/javascript">
+    
+    environment.debug = true;
+
+    environment.ellipsisTargets = {
+      '#jump-to-video .multiline-ellipsis': {
+        ellipsis: '... ',
+        wrap: 'word',
+        height: 30
+      },
+      '.submenus .multiline-ellipsis': {
+        ellipsis: '... ',
+        wrap: 'word',
+        height: 60
+      },
+      '#hero-stories .multiline-ellipsis, .module-article a.multiline-ellipsis, .module-hero .multiline-ellipsis': {
+        ellipsis: '... ',
+        wrap: 'word',
+        height: 70
+      },
+      'a.block-ellipsis, .block-ellipsis a': {
+          ellipsis: '... ',
+          wrap: 'word',
+          after: 'a',
+          height: 110,
+          tolerance: 10
+      },
+      '.small-ellipsis': {
+        ellipsis: '... ',
+        wrap: 'word',
+        after: 'a',
+        height: 55
+      }
+    };
+
+  </script>
+
+  
+
+  <script type="text/javascript" src="//www.googletagservices.com/tag/js/gpt.js"></script>
+  
+<script type="text/javascript" language="JavaScript">
+  var cb = new Date().getTime();
+  var asiPqTag = false;
+  try { 
+  document.write("<sc" + "ript type='text/javascript' language='JavaScript' src='//pq-direct.revsci.net/pql?placementIdList=d5WRLd,XvaTUT&cb=" + cb + "'></sc" + "ript>");
+  } catch(err) { }
+</script>
+
+
+              <!-- Comscore -->
+<script type="text/javascript">
+  var r29cookie = document.cookie;
+  var val;
+  
+  if (r29cookie.indexOf("r29comstore=") != -1)
+   {
+      i = r29cookie.indexOf("r29comstore=");
+      s = r29cookie.substring(i + 12);
+      j = s.indexOf(";");
+      if (j == -1)
+      {
+          val = s;
+      }
+      else {
+          val = s.substring(0, j);
+      }
+  } else {
+      val = Math.floor(Math.random() * 12345678);
+      var date = new Date();
+      date.setTime(date.getTime() + (365 * 24 * 60 * 60 * 1000));
+      document.cookie = 'r29comstore=' + val + '; expires=' + date.toGMTString() + '; path=/';
+  }
+  
+  var currentUrl = self.location.href;
+
+  var _comscore = _comscore || [];
+  _comscore.push({ c1:2, c2:"7395029",c3:"www.refinery29.com", c4:currentUrl, c5:"", c6:"", c15: val });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js"; el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src = "http://b.scorecardresearch.com/p?c1=2&amp;c2=7395029&amp;c3=www.refinery29.com&amp;c4=http://www.refinery29.com/&amp;c5=&amp;c6=&amp;c15=C67BD3C1&amp;cj=1" alt="Comscore" />
+</noscript>
+<!-- /Comscore -->
+        <!-- Google Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+
+  // break up host into app, subdomain and tld
+  var tmp = /^([^\.]+\.)([\w\.]+)?(refinery29|rf29)\.(\w+)(:\d+)?$/.exec(window.location.host.toLowerCase()),
+    
+      // application
+      app = tmp[1] ? tmp[1] : 'www',
+      
+      // subdomain
+      sub = tmp[2] ? tmp[2] : '',
+      
+      // domain
+      dom = tmp[3] ? tmp[3] : 'refinery29',
+
+      // top level domain
+      tld = tmp[4] ? tmp[4] : 'com';
+  
+  _gaq.push(['_setAccount', 'UA-315022-1']);
+  _gaq.push(['_setDomainName', '.' + dom + '.' + tld]);
+
+      _gaq.push(['_setCustomVar', 1, 'Category', '', 3]);
+  
+  _gaq.push(['_setCustomVar', 4, 'Entry Type', 'CATEGORY', 3]);
+  _gaq.push(['_setCustomVar', 12, 'Entry Type', 'CATEGORY', 2]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    //ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- /Google Analytics -->
+
+        <script type='text/javascript'>
+    var _sf_async_config={ }; 
+    /** CONFIGURATION START **/
+    _sf_async_config.uid = 3552;
+    _sf_async_config.domain = 'refinery29.com';
+    _sf_async_config.sections = "Refinery29";
+    
+
+    _sf_async_config.zone = '' + '/' + '';
+
+    
+
+    _sf_async_config.useCanonical = true;
+    
+
+    /** CONFIGURATION END **/
+    (function(){
+      function loadChartbeat() {
+        window._sf_endpt=(new Date()).getTime();
+        var e = document.createElement('script');
+        e.setAttribute('language', 'javascript');
+        e.setAttribute('type', 'text/javascript');
+        e.setAttribute('src',
+           (('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://static.chartbeat.com/') +
+           'js/chartbeat_pub.js');
+        document.body.appendChild(e);
+      }
+      var oldonload = window.onload;
+      window.onload = (typeof window.onload != 'function') ?
+         loadChartbeat : function() { oldonload(); loadChartbeat(); };
+    })();
+</script>
+
+    
+  
+
+</head>
+<body >
+
+  <div id="message_ie8">
+  <p>Please upgrade your browser for the best Refinery29 experience.  <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" target="_blank">Read more</a>.</p>
+</div>
+
+  
+  
+
+
+  <div class="is-hidden">
+      <ul role="menu">
+          <li role="menuitem"><a href="#header">Jump to header</a></li>
+          <li role="menuitem"><a href="#nav">Jump to navigation</a></li>
+          <li role="menuitem"><a href="#footer">Jump to footer</a></li>
+      </ul>
+  </div><!--/.is-hidden-->
+
+      <section class="ad-container">
+        <div id="div-id-for-top-728x90" class="ad " data-cb-ad-id="Top Unit" data-ad-size="728x90,970x66,970x90,970x250,980x66,980x90,1240x90,970x250" data-sponsor="" data-pos="top" ></div>
+
+
+    </section>
+  
+
+      <header class="global-header-nav" itemscope itemtype="http://schema.org/Organization">
+
+  <a itemprop="url" href="/" class="main-nav-logo ga-trackable" data-category="Logo" data-label="Top Nav" data-action="Click">
+    <img itemprop="logo" src="https://s2.r29static.com/blog/47c4fc/assets/images/r29-logo-b.svg" alt="Refinery29 Logo" />
+    <div class="main-nav-logo-circle"></div>
+  </a>
+
+  <div id="main-nav" role="banner">
+    <div class="main-nav-container">
+      <div class="main-nav-bar">
+
+        <nav class="main-nav-menus">
+  <ul class="main-nav-categories">
+          <li class="col-left" data-slug="Video">
+                  <a href="CorinnaDaCruz_Resume.pdf" class="ga-trackable" data-category="Navigation" data-action="Desktop" data-label="Video">Resume</a>
+        
+      </li>
+          <li class="col-left" data-slug="Fashion">
+                  <a href="mailto:corinna.dacruz@gmail.com" class="ga-trackable" data-category="Navigation" data-action="Desktop" data-label="Fashion">Contact</a>
+        
+      </li>
+          <li class="col-left" data-slug="Shopping">
+                  <span style="cursor:default;">Passion for the R29 Brand</span>
+        
+      </li>
+          <li class="col-left" data-slug="Beauty">
+                  <span style="cursor:default;">Major: Communications</span>
+        
+      </li>
+          <li class="col-left" data-slug="Living">
+                 <span style="cursor:default;">Minor: Fashion Merchandising</span>
+        
+      </li>
+    
+  </ul>
+  <div class="main-nav-categories">
+          <aside class="main-nav-submenu main-nav-submenu-group-0" data-parent="Fashion">
+
+      </aside>
+          <aside class="main-nav-submenu main-nav-submenu-group-1" data-parent="Beauty">
+      </aside>
+          <aside class="main-nav-submenu main-nav-submenu-group-2" data-parent="Living">
+      </aside>
+          <aside class="main-nav-submenu main-nav-submenu-group-3" data-parent="Health">
+      </aside>
+          <aside class="main-nav-submenu main-nav-submenu-group-4" data-parent="Entertainment">
+      </aside>
+    
+  </div>
+</nav>
+
+
+
+        <div class="main-nav-social">
+          <span class="main-nav-search-button icon-search active"></span>
+<form class="main-nav-search-form " action="/search" method="get" role="search">
+  <label for="search" class="main-nav-search-label is-hidden">The search is over!</label>
+  <input class="main-nav-search-input" id="main-nav-search-input" type="search" name="q" data-default="90"  placeholder="THE SEARCH IS OVER">
+  <button type="submit" class="main-nav-search-submit">
+    <span class="icon-search"></span><span class="is-hidden">the search is over!</span></button>
+  <span class="main-nav-search-close">x</span>
+</form>
+
+          <div id="main-nav-user-menu"></div>
+
+          <ul id="main-nav-social-menu" class="main-nav-social-menu right-ruler">
+            <li class="main-nav-social-menu-item email">
+              <span class="main-nav-social-menu-item-button icon-mail"></span>
+
+              <div class="signup main-nav-email-dropdown right-ruler">
+                <input id="main-nav-email-dropdown-input" type="email" placeholder="Enter Email For Daily Inspiration" message="Please enter your email" />
+
+                <button class="main-nav-email-submit button ga-trackable" data-category="Email Acquisition" data-label="Header" data-action="On-site Email Signup">Sign Up</button>
+
+                <form class="main-nav-email-form" id="social-email" autocomplete="on">
+                  <header class="main-nav-email-dropdown-header">
+                    <h3>Choose Your Editions</h3>
+                  </header>
+
+                  <section class="main-nav-email-dropdown-newsletter-options">
+                    <input type="hidden" name="interest_category" value="fashion" />
+                    <input type="hidden" name="interest_subcategory" value="" />
+                      <ul class="main-nav-email-dropdown-list col-left">
+
+  <li>
+    <div class="main-nav-email-dropdown-list-item">
+      <input type="checkbox" name="email_list[r29_reserve]" class="main-nav-email-dropdown-list-checkbox" id="email-r29_reserve" >
+      <label for="email-reserve" class="main-nav-email-dropdown-list-label">
+        <span class="main-nav-email-dropdown-label-checkbox "></span>
+        Shopping
+      </label>
+    </div>
+  </li>
+
+
+  <li>
+    <div class="main-nav-email-dropdown-list-item">
+      <input type="checkbox" name="email_list[main_london]" class="main-nav-email-dropdown-list-checkbox" id="email-main_london" >
+      <label for="email-london" class="main-nav-email-dropdown-list-label">
+        <span class="main-nav-email-dropdown-label-checkbox "></span>
+        London
+      </label>
+    </div>
+  </li>
+
+
+  <li>
+    <div class="main-nav-email-dropdown-list-item">
+      <input type="checkbox" name="email_list[main_new_york]" class="main-nav-email-dropdown-list-checkbox" id="email-main_new_york" >
+      <label for="email-new-york" class="main-nav-email-dropdown-list-label">
+        <span class="main-nav-email-dropdown-label-checkbox "></span>
+        New York
+      </label>
+    </div>
+  </li>
+
+
+
+</ul>
+<ul class="main-nav-email-dropdown-list col-left">
+  <li>
+    <div class="main-nav-email-dropdown-list-item">
+      <input type="checkbox" name="email_list[main_everywhere]" class="main-nav-email-dropdown-list-checkbox" id="email-main_everywhere" checked>
+      <label for="email-everywhere" class="main-nav-email-dropdown-list-label">
+        <span class="main-nav-email-dropdown-label-checkbox active"></span>
+        Everywhere
+      </label>
+    </div>
+  </li>
+
+
+  <li>
+    <div class="main-nav-email-dropdown-list-item">
+      <input type="checkbox" name="email_list[main_chicago]" class="main-nav-email-dropdown-list-checkbox" id="email-main_chicago" >
+      <label for="email-chicago" class="main-nav-email-dropdown-list-label">
+        <span class="main-nav-email-dropdown-label-checkbox "></span>
+        Chicago
+      </label>
+    </div>
+  </li>
+
+
+  <li>
+    <div class="main-nav-email-dropdown-list-item">
+      <input type="checkbox" name="email_list[main_los_angeles]" class="main-nav-email-dropdown-list-checkbox" id="email-main_los_angeles" >
+      <label for="email-los-angeles" class="main-nav-email-dropdown-list-label">
+        <span class="main-nav-email-dropdown-label-checkbox "></span>
+        Los Angeles
+      </label>
+    </div>
+  </li>
+
+
+  <li>
+    <div class="main-nav-email-dropdown-list-item">
+      <input type="checkbox" name="email_list[main_san_francisco]" class="main-nav-email-dropdown-list-checkbox" id="email-main_san_francisco" >
+      <label for="email-san-francisco" class="main-nav-email-dropdown-list-label">
+        <span class="main-nav-email-dropdown-label-checkbox "></span>
+        San Francisco
+      </label>
+    </div>
+  </li>
+
+
+</ul>
+
+                  </section>
+                  <div class="main-nav-email-error">
+                    <div class="icon-triangle-up"></div>
+                    <div class="main-nav-email-error-message">Oops! That's not a real email address.</div>
+                  </div>
+                </form>
+              </div>
+
+              <div class="thanks main-nav-email-dropdown" id="social-email-thanks" hidden>
+                <header class="main-nav-email-dropdown-header">
+                  <span class="icon-close"></span>
+                  <h3>Now we're email buddies!</h3>
+                </header>
+                <section class="main-nav-email-message">
+                  <p class="main-nav-email-message-text">You have chosen to receive our <strong>#NAMED_LISTS#</strong> newsletters at #EMAIL_ADDRESS#. You will receive an e-mail shortly confirming your subscription. So excited to have you!</p>
+                  <p class="main-nav-email-message-text">xoxo, <br> Refinery 29</p>
+                </section>
+              </div>
+            </li>
+
+            <li class="main-nav-social-menu-item facebook">
+              <span class="main-nav-social-menu-item-button icon-facebook ga-trackable" data-category="Facebook Acquisition" data-action="Main Facebook Page" data-label="Social Widget Button"></span>
+              <div class="main-nav-social-share" id="social-facebook">
+                <div class="fb-like" data-href="http://facebook.com/refinery29" ref="social-widget-button" data-width="450" data-layout="button_count" data-show-faces="false" data-send="false"></div>
+              </div>
+            </li>
+
+            <li class="main-nav-social-menu-item youtube">
+              <span class="main-nav-social-menu-item-button icon-youtube ga-trackable" data-category="Youtube Acquisition" data-action="Main Youtube Channel" data-label="Social Widget Button"></span>
+              <div class="main-nav-social-share" id="social-youtube">
+                <div class="g-ytsubscribe" data-channel="Refinery29TV" data-count="hidden"></div>
+              </div>
+            </li>
+
+            <li class="main-nav-social-menu-item instagram">
+              <span class="main-nav-social-menu-item-button icon-instagram"></span>
+              <div class="main-nav-social-share ga-trackable" id="social-instagram" data-category="Instagram Acquisition" data-action="Main Instagram Page" data-label="Social Widget Button">
+                <a class=" instagram-link icons-instagram-follow" href="http://www.instagram.com/refinery29" target="_blank"></a>
+              </div>
+            </li>
+
+            <li class="main-nav-social-menu-item twitter">
+              <span class="main-nav-social-menu-item-button icon-twitter ga-trackable" data-category="Twitter Acquisition" data-action="Main Twitter Handle" data-label="Social Widget Button"></span>
+              <div class="main-nav-social-share" id="social-twitter">
+                <a href="https://twitter.com/refinery29" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @refinery29</a>
+              </div>
+            </li>
+
+            <li class="main-nav-social-menu-item pinterest">
+              <span class="main-nav-social-menu-item-button icon-pinterest"></span>
+              <div class="main-nav-social-share ga-trackable" id="social-pinterest" data-category="Pinterest Acquisition" data-action="Main Pinterest Page" data-label="Social Widget Button">
+                <a data-pin-do="buttonFollow" href="http://pinterest.com/follow/refinery29/">Refinery29</a>
+              </div>
+            </li>
+
+            <li class="main-nav-social-menu-item tumblr">
+              <span class="main-nav-social-menu-item-button icon-tumblr ga-trackable" data-category="Tumblr Acquisition" data-action="Main Tumblr Page" data-label="Social Widget Button"></span>
+              <div class="main-nav-social-share ga-trackable" id="social-tumblr">
+                <iframe class="btn" frameborder="0" border="0" scrolling="no" allowtransparency="true" height="25" width="116" src="http://platform.tumblr.com/v1/follow_button.html?button_type=2&tumblelog=refinery29&color_scheme=dark"></iframe>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      <!-- end of main-nav-social -->
+      </div>
+    </div>
+          
+    
+  </div>
+</header>
+
+    <div class="shopping-message-banner-article shopping-message-banner--saving">
+  <span class="shopping-message-banner--saving__saved">
+    Saved! Access Favorites in your account profile.
+  </span>
+  <span class="shopping-message-banner--saving__removed">
+    <i class="icon-star-filled"></i>
+    Removed from my favorites
+  </span>
+</div>
+
+  
+
+
+
+
+
+      
+  <div class="content-container homepage-container">
+  <section class="index-body-section" data-tb-region="Hero Module">
+
+    <h1>Corinna DaCruz</h1>
+		
+          <article class="index-body-hero" data-tb-region-item>
+        <a class="index-url ga-trackable"
+          href="#"
+          data-category="Homepage Hero - Homepage"
+          data-action="0" 
+          data-label="/2015/10/96020/oxfam-serbian-refugees-winter-immigration">
+
+          <img src="profile.jpg" alt="OPENER_OxfamPhoto4" width="300" height="360" />
+          <div class="index-info">
+            <h4 class="index-category"><i class="fa fa-bullhorn"></i> Applying for</h4>
+            <h3 class="index-title"><span>Sales Marketing Manager</span></h3>
+          </div>
+        </a>
+      </article>
+          <article class="index-body-hero" data-tb-region-item>
+        <a class="index-url ga-trackable"
+          href="#"
+          data-category="Homepage Hero - Homepage"
+          data-action="1" 
+          data-label="/organizing-challenge">
+
+          <img src="http://ecopydesk.com/wp-content/uploads/2015/10/marketing-plan.jpg" alt="org-2-op" width="300" height="360" />
+          <div class="index-info">
+            <h4 class="index-category"><i class="fa fa-line-chart"></i> March 2015</h4>
+            <h3 class="index-title"><span>Promoted to IM Manager at SpinMedia</span></h3>
+          </div>
+        </a>
+      </article>
+          <article class="index-body-hero" data-tb-region-item>
+        <a class="index-url ga-trackable"
+          href="#"
+          data-category="Homepage Hero - Homepage"
+          data-action="2" 
+          data-label="/2015/10/96128/neil-degrasse-tyson-back-to-the-future-twitter">
+
+          <img src="https://thenypost.files.wordpress.com/2014/09/money_pile.jpg" alt="Opener2" width="300" height="360" />
+          <div class="index-info">
+            <h4 class="index-category"><i class="fa fa-money"></i> Dec 2014</h4>
+            <h3 class="index-title"><span>Closes 2014 with 1.9MM sold through for Spin</span></h3>
+          </div>
+        </a>
+      </article>
+          <article class="index-body-hero" data-tb-region-item>
+        <a class="index-url ga-trackable"
+          href="CorinnaDaCruz_Resume.pdf"
+          data-category="Homepage Hero - Homepage"
+          data-action="3" 
+          data-label="/stance-socks-styling-tips">
+
+          <img src="https://d13yacurqjgara.cloudfront.net/users/125056/screenshots/1476165/99miles-resume-builder-icon-ios.gif" alt="Stance_Socks_opener" width="300" height="360" />
+          <div class="index-info">
+            <h4 class="index-category"><i class="fa fa-cloud-download"></i> Download</h4>
+            <h3 class="index-title"><span>Resume</span></h3>
+          </div>
+        </a>
+      </article>
+    
+    
+  </section>
+</div>
+<div class="content-container homepage-container">
+  <section class="index-body-section">
+    <div class="index-body-header">
+      <h2>Best Way's to Contact</h2>
+      <a href="mailto:Corinna.DaCruz@gmail.com"
+        class="ga-trackable"
+        data-category="Homepage - See More of Today's News"
+        data-action="Click"
+        data-label="na">Email now <span class="icon-arrow-right"></a>
+    </div>
+  </section>
+  
+	
+  <section class="index-body-section" data-tb-region="Grid Row 1">
+          <article class="index-body-standard" data-tb-region-item>
+        <a href="mailto:corinna.dacruz@gmail.com" class="index-url ga-trackable" data-category="Homepage R29 Now - Homepage" data-action="0"  data-label="/2015/10/96121/whats-leaving-netflix-november-2015">
+
+          <img src="http://www.wired.com/wp-content/uploads/2015/03/gmail2.jpeg" alt="screamdrew-opener" width="340" height="408" />
+          
+          <div class="index-info">
+                          <div class="index-type-icon slideshow"><span class="icon"><i class="fa fa-envelope-o fa-lg"></i></span></div>
+            
+
+            <h4 class="index-category">Email</h4>
+            <h3 class="index-title"><span>Corinna.DaCruz @ gmail.com</span></h3>
+            <p class="index-author">Corinna DaCruz</p>
+            <p class="index-timestamp">Oct 21, 2015</p>
+          </div>
+        </a>
+
+        <div class="index-share">
+          <button class="index-share-facebook share-button-facebook xsmall icon-facebook share-buttons" data-url="https://www.facebook.com/sharer/sharer.php?u=http://www.refinery29.com/2015/10/96121/whats-leaving-netflix-november-2015"></button>
+          <button class="index-share-pinterest share-button-pinterest xsmall icon-pinterest share-buttons" data-url="http://pinterest.com/pin/create/button/?url=http://www.refinery29.com/2015/10/96121/whats-leaving-netflix-november-2015&media=%2F%2Fs3.r29static.com%2F%2Fbin%2Fentry%2Ffec%2F150x200%2C80%2F1493680%2Fimage.jpg&description=Here%27s+Everything+Leaving+Netflix+In+November+%23refinery29"></button>
+          <button class="index-share-email share-button-email xsmall icon-mail share-buttons"
+                  data-url="mailto:%20?subject=Refinery29:%20Here%27s%20Everything%20Leaving%20Netflix%20In%20November&body=Here%27s%20Everything%20Leaving%20Netflix%20In%20November%0D%0Ahttp%3A%2F%2Fwww.refinery29.com%2F2015%2F10%2F96121%2Fwhats-leaving-netflix-november-2015%3Futm_source%3Demail%26utm_medium%3Demail_share%0D%0A%0D%0AThis was fun, right? Sign up for even more of the good stuff here: http://r29.co/1J5EJdJ">
+          </button>
+        </div>
+      </article>
+          <article class="index-body-standard" data-tb-region-item>
+        <a href="#" class="index-url ga-trackable" data-category="Homepage R29 Now - Homepage" data-action="1"  data-label="/2015/10/96045/new-ben-and-jerrys-flavor-salted-caramel-brownie-ale-ice-cream">
+
+          <img src="http://store.storeimages.cdn-apple.com/4756/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone6/plus/iphone6-plus-box-silver-2014_GEO_US?wid=478&hei=595&fmt=jpeg&qlt=95&op_sharpen=0&resMode=bicub&op_usm=0.5,0.5,0,0&iccEmbed=0&layer=comp&.v=1441815246278" alt="Opener (31)" width="340" height="408" />
+          
+          <div class="index-info">
+                          <div class="index-type-icon read"><span class="icon"><i class="fa fa-mobile fa-lg"></i></span></div>
+            
+
+            <h4 class="index-category">Phone</h4>
+            <h3 class="index-title"><span>(603) 401-3138</span></h3>
+            <p class="index-author">Corinna DaCruz</p>
+            <p class="index-timestamp">Oct 21, 2015</p>
+          </div>
+        </a>
+
+        <div class="index-share">
+          <button class="index-share-facebook share-button-facebook xsmall icon-facebook share-buttons" data-url="https://www.facebook.com/sharer/sharer.php?u=http://www.refinery29.com/2015/10/96045/new-ben-and-jerrys-flavor-salted-caramel-brownie-ale-ice-cream"></button>
+          <button class="index-share-pinterest share-button-pinterest xsmall icon-pinterest share-buttons" data-url="http://pinterest.com/pin/create/button/?url=http://www.refinery29.com/2015/10/96045/new-ben-and-jerrys-flavor-salted-caramel-brownie-ale-ice-cream&media=%2F%2Fs2.r29static.com%2F%2Fbin%2Fentry%2F81e%2F150x200%2C80%2F1493068%2Fimage.jpg&description=The+Latest+Ben+%26+Jerry%27s+Flavor+Is+Here+%E2%80%94+%26+It%27s+BOOZY+%23refinery29"></button>
+          <button class="index-share-email share-button-email xsmall icon-mail share-buttons"
+                  data-url="mailto:%20?subject=Refinery29:%20The%20Latest%20Ben%20%26%20Jerry%27s%20Flavor%20Is%20Here%20%E2%80%94%20%26%20It%27s%20BOOZY&body=The%20Latest%20Ben%20%26%20Jerry%27s%20Flavor%20Is%20Here%20%E2%80%94%20%26%20It%27s%20BOOZY%0D%0Ahttp%3A%2F%2Fwww.refinery29.com%2F2015%2F10%2F96045%2Fnew-ben-and-jerrys-flavor-salted-caramel-brownie-ale-ice-cream%3Futm_source%3Demail%26utm_medium%3Demail_share%0D%0A%0D%0AThis was fun, right? Sign up for even more of the good stuff here: http://r29.co/1J5EJdJ">
+          </button>
+        </div>
+      </article>
+    
+
+    <div class="homepage-impression-tracker-grid"></div>
+
+    <aside class="index-body-ad">
+                <div id="ad-r29now" class="ad sliding" data-cb-ad-id="Right Rail Unit" data-ad-size="300x600,300x250" data-sponsor="" data-pos="right" ></div>
+
+
+          <div id="ad-bi-r29now-small" class="ad "  data-ad-size="300x45" data-sponsor="" data-pos="right" ></div>
+
+
+      
+    </aside>
+  </section>
+
+
+      		
+    <section class="index-body-section" data-tb-region="Grid Row 2">
+    
+
+              <article class="index-body-full" data-tb-region-item>
+      
+
+        <a class="index-url ga-trackable" href="/2015/10/96129/when-your-transgender-children-becoming-nicole" data-category="Homepage R29 Now - Homepage" data-action="2"  data-label="/2015/10/96129/when-your-transgender-children-becoming-nicole">
+                      <img src="/cover.jpg" alt="maines-family-op" width="550" height="660" />
+          
+
+          <div class="index-info">
+                          <div class="index-type-icon read"><span class="icon-eye"></span></div>
+            
+
+            <h4 class="index-category">Cover Letter</h4>
+            <h3 class="index-title"><span>So, You're Looking For A Marketing Manager?</span></h3>
+
+                          <p class="index-description">
+                             It is with the utmost enthusiasm that I would like to express my interest in the Sales Marketing Manager role at Refinery29. I have experience as a Marketing Manager delivering multiple presale and postsale tasks while exceeding client expectations. Last year, over 1.9MM dollars in sales was generated at SpinMedia as a result of the marketing team's creativity and command over the RFP process. My specialization in entertainment and female focused RFPs aligns with R29's demographic. I would be excited to learn more about the role and how my skills could contribute to the Refinery29 marketing team.</p>
+
+            <p class="index-author">Corinna DaCruz</p>
+            <p class="index-timestamp">Oct 21, 2015</p>
+          </div>
+        </a>
+
+        <div class="index-share">
+          <button class="index-share-facebook share-button-facebook xsmall icon-facebook share-buttons" data-url="https://www.facebook.com/sharer/sharer.php?u=http://www.refinery29.com/2015/10/96129/when-your-transgender-children-becoming-nicole"></button>
+          <button class="index-share-pinterest share-button-pinterest xsmall icon-pinterest share-buttons" data-url="http://pinterest.com/pin/create/button/?url=http://www.refinery29.com/2015/10/96129/when-your-transgender-children-becoming-nicole&media=%2F%2Fs1.r29static.com%2F%2Fbin%2Fentry%2Ff26%2F150x200%2C80%2F1493967%2Fimage.jpg&description=When+One+Identical+Twin+Comes+Out+As+Transgender+%23refinery29"></button>
+          <button class="index-share-email share-button-email xsmall icon-mail share-buttons"
+                  data-url="mailto:%20?subject=Refinery29:%20When%20One%20Identical%20Twin%20Comes%20Out%20As%20Transgender&body=When%20One%20Identical%20Twin%20Comes%20Out%20As%20Transgender%0D%0Ahttp%3A%2F%2Fwww.refinery29.com%2F2015%2F10%2F96129%2Fwhen-your-transgender-children-becoming-nicole%3Futm_source%3Demail%26utm_medium%3Demail_share%0D%0A%0D%0AThis was fun, right? Sign up for even more of the good stuff here: http://r29.co/1J5EJdJ">
+          </button>
+        </div>
+      </article>
+
+      
+
+        </section>
+    
+
+          </section>
+    
+        		
+
+</div>
+
+
+
+
+
+
+
+  
+
+      <div class="content-container  homepage-container " id="footer">
+  <div class="footer homepage-impression-tracker-footer">
+    <ul>
+      <li>&copy; 2015 Refinery29</li>
+      <li><a href="/terms-and-conditions">Terms</a></li>
+      <li><a href="/privacy">Privacy</a></li>
+      <li><a href="//www.corporate.r29.com">About</a></li>
+      <li><a href="//www.corporate.r29.com/press">Press</a></li>
+      <li><a href="//www.corporate.r29.com/advertising">Advertising</a></li>
+      <li><a href="//www.corporate.r29.com/careers">Jobs</a></li>
+      <li><a href="mailto:feedback@refinery29.com" data-uv-trigger data-uv-height="180px">Feedback</a></li>
+      <li><a href="/news">R29 News</a></li>
+      <li><a href="/archives">Site Map</a></li>
+      <li><a href="/rss.xml">RSS</a></li>
+    </ul>
+  </div>
+</div>
+
+  
+
+
+  <div id="fb-root"></div>
+
+<script>
+  if (location.search.indexOf('debug') > -1)
+    document.body.className += ' debug'
+</script>
+
+<!-- Ad - iPad Mopub 728x90 -->
+
+
+
+
+
+<!-- Load Libraries from CDN -->
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/platform.js"></script>
+<script type="text/javascript" src="https://player.ooyala.com/v3/2ccd7c8c3f6049f7a502d4ceb7f96204?platform=html5-priority"></script>
+
+<script type="text/javascript" src="https://s2.r29static.com/blog/47c4fc/assets/js/main-vendor.js"></script>
+<script type="text/javascript" src="https://s1.r29static.com/blog/47c4fc/assets/js/index/vendor.js"></script>
+<script type="text/javascript" src="https://s3.r29static.com/blog/47c4fc/assets/js/index/main.js"></script>
+
+
+<script type="text/javascript" id="twitter-wjs" src="//platform.twitter.com/widgets.js"></script>
+<script type="text/javascript" async defer data-pin-custom="true" src="//assets.pinterest.com/js/pinit.js"></script>
+<!-- Shared javascript -->
+
+
+<!-- Custom javascript -->
+
+<div class="is-hidden">
+    <ul role="menu">
+        <li role="menuitem"><a href="#header">Back to header</a></li>
+        <li role="menuitem"><a href="#nav">Back to navigation</a></li>
+        <li role="menuitem"><a href="#footer">Back to footer</a></li>
+    </ul>
+</div><!--/.is-hidden-->
+
+
+  
+            <!-- Compete CrossPoint Tag for refinery29.com -->
+<script type="text/javascript">
+__compete_code = 'c6ecf41f2ae1b0e7908f2c73fb2b9e10';
+/* Set control variables below this line. */ 
+</script>
+<script type="text/javascript" src="//c.compete.com/bootstrap/s/c6ecf41f2ae1b0e7908f2c73fb2b9e10/refinery29-com/bootstrap.js"></script>
+<noscript>
+    <img width="1" height="1" src="https://ssl-refinery29-com-c6ecf4.c-col.com"/>
+</noscript>
+    
+
+          <script type="text/javascript" src="//s.skimresources.com/js/30283X879131.skimlinks.js" async="true"></script>
+    
+
+    <!-- Quantcast -->
+<script type="text/javascript">
+_qoptions={ qacct:"p-fesXMHo90Ka_A" };
+</script>
+<script type="text/javascript" src="//edge.quantserve.com/quant.js"></script>
+<noscript>
+  <img src="//pixel.quantserve.com/pixel/p-fesXMHo90Ka_A.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+</noscript>
+<!-- /Quantcast -->
+
+<!-- Custom Date Script -->
+<script>
+$( document ).ready(function() {
+  var today = new Date();
+  var dd = today.getDate();
+  var mm = today.getMonth()+1; //January is 0!
+  var yyyy = today.getFullYear();
+
+  if(dd<10) {
+      dd='0'+dd
+  } 
+
+  if(mm<10) {
+      mm='0'+mm
+  } 
+
+  switch(mm) {
+    case 10:
+      mm = "Oct"
+      break;
+    case 11:
+      mm = "Nov"
+      break;
+    case 12:
+      mm = "Dec"
+      break;
+    case 01:
+      mm = "Jan"
+      break;
+  }
+
+  today = mm+' '+dd+', '+yyyy;
+  $('.index-timestamp').replaceWith( "<p class='index-timestamp'>"+today+"</p>" );
+});
+
+</script>
+
+    <!-- Sailthru Horizon -->
+<script type="text/javascript">
+  (function() {
+    var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+    if (s.readyState){  //IE
+      s.onreadystatechange = function(){
+        if (s.readyState == "loaded" ||
+          s.readyState == "complete"){
+          s.onreadystatechange = null;
+          Sailthru.setup({
+            domain: 'horizon.refinery29.com',
+            tags: '',
+            cookieDomain: '.refinery29.com'
+          });
+        }
+      };
+    } else {  //Others
+      s.onload = function(){
+        Sailthru.setup({
+          domain: 'horizon.refinery29.com',
+          tags: '',
+          cookieDomain: '.refinery29.com'
+        });
+      };
+    }
+    s.src = ('https:'==location.protocol?'https://d1gp8joe0evc8s.cloudfront.net':'http://cdn.sail-horizon.com')+'/horizon/v1.js';
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+  })();
+</script>
+    
+
+
+    <script src="//tags.crwdcntrl.net/c/5283/cc_af.js"></script>
+    <!-- youtube button iframe -->
+<script type="text/javascript">
+ (function(){
+	"use strict";
+	var s;
+  s = document.createElement('script');
+  s.async = true;
+  s.type = 'text/javascript';
+  s.src = document.location.protocol + '//apis.google.com/js/platform.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(s);
+ })();
+</script>
+
+    <!-- Naytev A/B testing -->
+<script>
+  (function(d){
+    "use strict";
+
+    var isProduction = /refinery29\.com$/.test(document.location.hostname),
+    siteId = isProduction ? '54f8bbbfe4b0dd9392ffd47c' : '5500524de4b0bb90d6411c4d';
+
+    var f = d.getElementsByTagName('SCRIPT')[0],
+    p = d.createElement('SCRIPT');
+    p.type = 'text/javascript';
+    p.async = true;
+    p.src = '//naytev.global.ssl.fastly.net/js/embed/' + siteId + '.js';
+    f.parentNode.insertBefore(p, f);
+  })(document);
+</script>
+
+    <!-- FB Cusstom Audience Pixel -->
+<script>(function() {
+  var _fbq = window._fbq || (window._fbq = []);
+  if (!_fbq.loaded) {
+  var fbds = document.createElement('script');
+  fbds.async = true;
+  fbds.src = '//connect.facebook.net/en_US/fbds.js';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(fbds, s);
+  _fbq.loaded = true;
+  }
+  _fbq.push(['addPixelId', '709693729097198']);
+  })();
+  window._fbq = window._fbq || [];
+  window._fbq.push(['track', 'PixelInitialized', ]);
+</script>
+<noscript>
+  <img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=709693729097198&amp;ev=PixelInitialized" />
+</noscript>
+
+  
+  
+      <script type=text/javascript>var skimlinks_tracking = "desktop0homepage";</script>
+  
+  <!--Main Polar Script-->
+      <script async src="http://cdn.mediavoice.com/nativeads/script/refinery29/mv_r29_plugin.js"></script>
+  
+
+<div id="ad-interstitial"></div>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"9aa3407800","applicationID":"3374998","transactionName":"b1cHZBcEW0dZVRZbXVYdJkUWEVpZF3UNXEZKXQlcABdqdlRZBW12XV4MRgAXGlVbQgtdXGdWAFYEEFlAF0ALV0UCWwtUAB0aXVZSB0ocUEYIXA==","queueTime":0,"applicationTime":492,"atts":"QxAEEl8eSEk=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-686.min.js"}</script></body>
+</html>
